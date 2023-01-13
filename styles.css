@@ -1,0 +1,23 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header, #page-desc{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+li ul{
+    font-size: 1.25em;
+    list-style-type: none;
+    padding: 0px 5px 0px 5px;
+    margin: 0;
+}
+
+li ul a{
+    text-decoration: none;
+    color: black;
+}
