@@ -21,3 +21,37 @@ li ul a{
     text-decoration: none;
     color: black;
 }
+
+.container{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcbbef;
+}
+.landing-content{
+    display: flex;
+    height: 90vh;
+    width: 95vw;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: aqua;
+}
+#hero-placeholder{
+    align-self: flex-end;
+}
+
+/*The colors exist for visual clarity and for the purpose of
+understanding the spacing between the elements*/
+#header{
+    background-color: #f2a2e6;
+}
+#page-desc{
+    background-color: #57e47d;
+}
+#nav-bar{
+    background-color: #d79d9c;
+}
+#hero-placeholder{
+    background-color: lightgray;
+}
